@@ -1,0 +1,3 @@
+-- Default neXgen Skin
+
+SceneLoad("SKINS:\\Default\\Main.lua")

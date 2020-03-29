@@ -1,0 +1,87 @@
+<XOS>
+
+	<General>
+		<XboxName>froglegs</XboxName>
+
+		<Skin>test</Skin>
+		
+		<AutoLaunchDVD>no</AutoLaunchDVD>
+		<AutoLaunchGame>no</AutoLaunchGame>
+		<AutoLaunchUnknown>no</AutoLaunchUnknown>
+
+		<MSDashboard>C:\xboxdash.xbe</MSDashboard>
+		
+		<DVDPlayer>E:\APPS\DVDX\default.xbe</DVDPlayer>
+		<UnknownPlayer>E:\APPS\XBMC\default.xbe</UnknownPlayer>
+
+		<ScreenSaverTime>1</ScreenSaverTime>
+		<ScreenSaverMode>3</ScreenSaverMode>
+		<ScreenSaverFade>20</ScreenSaverFade>		
+	</General>
+
+
+	<Network>
+		<DHCP>yes</DHCP>
+		<IP>192.168.0.48</IP>
+		<SubnetMask>255.255.255.0</SubnetMask>
+		<Gateway>192.168.0.1</Gateway>
+		<DNS1>192.168.0.1</DNS1>
+		<DNS2>0.0.0.0</DNS2>
+
+		<FTPUser>xbox</FTPUser>
+		<FTPPass>xbox</FTPPass>
+
+		<HTTPUser>xbox</HTTPUser>
+		<HTTPPass>xbox</HTTPPass>
+
+		<RemoteFTPHost>192.168.0.30</RemoteFTPHost>
+		<RemoteFTPPort>21</RemoteFTPPort>
+		<RemoteFTPUser>xbox</RemoteFTPUser>
+		<RemoteFTPPass>xbox</RemoteFTPPass>
+
+	</Network>
+	
+	<SearchPaths>
+		<!-- Set search paths here with no trailing slash !-->
+		<Games>E:\games;F:\games</Games>
+		<Applications>E:\apps;F:\apps</Applications>
+		<Emulators>E:\emus;F:\emus</Emulators>
+		<Sounds>c:\skins\waves</Sounds>
+	</SearchPaths>
+
+
+	<Music>
+		<AutoStart>yes</AutoStart>
+		<RandomPlay>yes</RandomPlay>
+	</Music>
+
+
+	<Advanced>
+		<UseCache>yes</UseCache>
+		<FanSpeed>10</FanSpeed>
+		<RegionPatch>yes</RegionPatch>
+		<AutoPowerOffTime>0</AutoPowerOffTime>
+	</Advanced>
+	
+	<Ledcolour>
+		<!-- XBOX Colour Modes !-->
+		<!-- 1:RED, 2:ORANGE, 3:GREEN, 4:FAST RED, 5: FAST GREEN / RED, 6:FAST GREEN !-->
+		<!-- 7:FAST ORNAGE, 8:FAST GREEN/ORANGE/RED !-->
+		<Complete>3</Complete>
+		<Transfer>1</Transfer>
+		<FTPconnect>2</FTPconnect>
+		<Error>4</Error>
+		<Startup>3</Startup>
+	</Ledcolour>
+	
+	<!--	Xenium Modes are as follows 	!-->
+	<!--	1 = 4x256k			!-->
+	<!--	2 = 2x256k + 1x512k		!-->
+	<!--	3 = 2x512k			!-->
+	<!--	4 = 1x1Mb			!-->
+	<Xenium>
+		<Enabled>no</Enabled>
+		<XeniumMode>1</XeniumMode>
+	</Xenium>
+
+</XOS>

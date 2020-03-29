@@ -1,0 +1,3 @@
+-- Nexglow neXgen Skin
+
+SceneLoad("SKINS:\\Nexglow\\Main.lua")

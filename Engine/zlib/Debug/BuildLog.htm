@@ -1,0 +1,150 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: zlibvc, Configuration: Debug|Xbox -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\neXgen Dashboard Source v1.2\Engine\zlib\Debug\RSP000001.rsp" with contents
+[
+/Od /D "_DEBUG" /D "_XBOX" /D "BUILD_ZLIBDLL" /D "ZLIB_DLL" /FD /EHsc /MTd /Fp".\Debug/zlibvc.pch" /Fo".\Debug/" /Fd".\Debug/" /W3 /c /ZI /TC
+".\zutil.c"
+".\zip.c"
+".\unzip.c"
+".\uncompr.c"
+".\trees.c"
+".\infutil.c"
+".\inftrees.c"
+".\inflate.c"
+".\inffast.c"
+".\infcodes.c"
+".\infblock.c"
+".\gzio.c"
+".\gvmat32c.c"
+".\deflate.c"
+".\crc32.c"
+".\compress.c"
+".\adler32.c"
+]
+Creating command line "cl.exe @"e:\neXgen Dashboard Source v1.2\Engine\zlib\Debug\RSP000001.rsp" /nologo"
+Creating temporary file "e:\neXgen Dashboard Source v1.2\Engine\zlib\Debug\RSP000002.rsp" with contents
+[
+/OUT:"Debug/zlibvc.exe" /NOLOGO /DEBUG /MAP /subsystem:xbox /MACHINE:I386
+".\debug\adler32.obj"
+".\debug\compress.obj"
+".\debug\crc32.obj"
+".\debug\deflate.obj"
+".\debug\gvmat32c.obj"
+".\debug\gzio.obj"
+".\debug\infblock.obj"
+".\debug\infcodes.obj"
+".\debug\inffast.obj"
+".\debug\inflate.obj"
+".\debug\inftrees.obj"
+".\debug\infutil.obj"
+".\debug\trees.obj"
+".\debug\uncompr.obj"
+".\debug\unzip.obj"
+".\debug\zip.obj"
+".\debug\zutil.obj"
+]
+Creating command line "link.exe @"e:\neXgen Dashboard Source v1.2\Engine\zlib\Debug\RSP000002.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+zutil.c
+zip.c
+unzip.c
+uncompr.c
+trees.c
+infutil.c
+inftrees.c
+inflate.c
+inffast.c
+infcodes.c
+infblock.c
+gzio.c
+gvmat32c.c
+deflate.c
+crc32.c
+compress.c
+adler32.c
+Generating Code...
+Linking...
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+LIBCMTD.lib(dbgheap.obj) : error LNK2019: unresolved external symbol _IsBadWritePtr@8 referenced in function __CrtIsValidPointer
+LIBCMTD.lib(dbgheap.obj) : error LNK2019: unresolved external symbol _IsBadReadPtr@8 referenced in function __CrtIsValidPointer
+LIBCMTD.lib(dbgheap.obj) : error LNK2019: unresolved external symbol _HeapValidate@12 referenced in function __CrtIsValidHeapPointer
+LIBCMTD.lib(heapchk.obj) : error LNK2001: unresolved external symbol _HeapValidate@12
+LIBCMTD.lib(free.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(heapchk.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(heapinit.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(dbgheap.obj) : error LNK2019: unresolved external symbol _GetProcessHeap@0 referenced in function __CrtIsValidHeapPointer
+LIBCMTD.lib(malloc.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(expand.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(realloc.obj) : error LNK2001: unresolved external symbol _GetProcessHeap@0
+LIBCMTD.lib(_file.obj) : error LNK2019: unresolved external symbol __imp__RtlEnterCriticalSection@4 referenced in function __lock_file
+LIBCMTD.lib(stream.obj) : error LNK2001: unresolved external symbol __imp__RtlEnterCriticalSection@4
+LIBCMTD.lib(mlock.obj) : error LNK2019: unresolved external symbol __imp__RtlEnterCriticalSection@4 referenced in function __mtinitlocknum
+LIBCMTD.lib(osfinfo.obj) : error LNK2019: unresolved external symbol __imp__RtlEnterCriticalSection@4 referenced in function __set_osfhnd
+LIBCMTD.lib(_file.obj) : error LNK2019: unresolved external symbol __imp__RtlLeaveCriticalSection@4 referenced in function __unlock_file
+LIBCMTD.lib(mlock.obj) : error LNK2001: unresolved external symbol __imp__RtlLeaveCriticalSection@4
+LIBCMTD.lib(osfinfo.obj) : error LNK2001: unresolved external symbol __imp__RtlLeaveCriticalSection@4
+LIBCMTD.lib(dbgrpt.obj) : error LNK2019: unresolved external symbol _DebugBreak@0 referenced in function __CrtDbgBreak
+LIBCMTD.lib(dbgrpt.obj) : error LNK2019: unresolved external symbol _WriteFile@20 referenced in function __CrtDbgReport
+LIBCMTD.lib(write.obj) : error LNK2001: unresolved external symbol _WriteFile@20
+LIBCMTD.lib(dbgrpt.obj) : error LNK2019: unresolved external symbol _OutputDebugStringA@4 referenced in function __CrtDbgReport
+LIBCMTD.lib(mlock.obj) : error LNK2001: unresolved external symbol _OutputDebugStringA@4
+LIBCMTD.lib(crt0msg.obj) : error LNK2001: unresolved external symbol _OutputDebugStringA@4
+LIBCMTD.lib(exsup.obj) : error LNK2019: unresolved external symbol _RtlUnwind@16 referenced in function __global_unwind2
+LIBCMTD.lib(lseeki64.obj) : error LNK2019: unresolved external symbol _GetLastError@0 referenced in function __lseeki64_lk
+LIBCMTD.lib(chsize.obj) : error LNK2001: unresolved external symbol _GetLastError@0
+LIBCMTD.lib(close.obj) : error LNK2019: unresolved external symbol _GetLastError@0 referenced in function __close_lk
+LIBCMTD.lib(commit.obj) : error LNK2001: unresolved external symbol _GetLastError@0
+LIBCMTD.lib(open.obj) : error LNK2001: unresolved external symbol _GetLastError@0
+LIBCMTD.lib(thread.obj) : error LNK2001: unresolved external symbol _GetLastError@0
+LIBCMTD.lib(lseek.obj) : error LNK2019: unresolved external symbol _GetLastError@0 referenced in function __lseek_lk
+LIBCMTD.lib(heapchk.obj) : error LNK2001: unresolved external symbol _GetLastError@0
+LIBCMTD.lib(write.obj) : error LNK2019: unresolved external symbol _GetLastError@0 referenced in function __write_lk
+LIBCMTD.lib(read.obj) : error LNK2019: unresolved external symbol _GetLastError@0 referenced in function __read_lk
+LIBCMTD.lib(lseek.obj) : error LNK2019: unresolved external symbol _SetFilePointer@16 referenced in function __lseek_lk
+LIBCMTD.lib(lseeki64.obj) : error LNK2019: unresolved external symbol _SetFilePointer@16 referenced in function __lseeki64_lk
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol _TlsAlloc@0 referenced in function ___crtTlsAlloc@4
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol _XRegisterThreadNotifyRoutine@8 referenced in function __mtinit
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol _GetCurrentThreadId@0 referenced in function __mtinit
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol __tls_array referenced in function __mtinit
+LIBCMTD.lib(thread.obj) : error LNK2019: unresolved external symbol __tls_array referenced in function __threadstart@4
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol __tls_index referenced in function __mtinit
+LIBCMTD.lib(thread.obj) : error LNK2001: unresolved external symbol __tls_index
+LIBCMTD.lib(tidtable.obj) : error LNK2019: unresolved external symbol __imp__KeBugCheck@4 referenced in function __getptd
+LIBCMTD.lib(crt0dat.obj) : error LNK2001: unresolved external symbol __imp__KeBugCheck@4
+LIBCMTD.lib(malloc.obj) : error LNK2019: unresolved external symbol _RtlAllocateHeap@12 referenced in function __heap_alloc_base
+LIBCMTD.lib(expand.obj) : error LNK2019: unresolved external symbol _RtlReAllocateHeap@16 referenced in function __expand_base
+LIBCMTD.lib(realloc.obj) : error LNK2019: unresolved external symbol _RtlReAllocateHeap@16 referenced in function __realloc_base
+LIBCMTD.lib(free.obj) : error LNK2019: unresolved external symbol _HeapFree@12 referenced in function __free_base
+LIBCMTD.lib(read.obj) : error LNK2019: unresolved external symbol _ReadFile@20 referenced in function __read_lk
+LIBCMTD.lib(close.obj) : error LNK2019: unresolved external symbol _CloseHandle@4 referenced in function __close_lk
+LIBCMTD.lib(thread.obj) : error LNK2019: unresolved external symbol _CloseHandle@4 referenced in function __threadstart@4
+LIBCMTD.lib(commit.obj) : error LNK2019: unresolved external symbol _FlushFileBuffers@4 referenced in function __commit
+LIBCMTD.lib(crt0dat.obj) : error LNK2019: unresolved external symbol _RtlRip@12 referenced in function _doexit
+LIBCMTD.lib(initcrit.obj) : error LNK2019: unresolved external symbol _SetLastError@4 referenced in function ___crtInitCritSecAndSpinCount
+LIBCMTD.lib(initcrit.obj) : error LNK2019: unresolved external symbol __imp__RtlInitializeCriticalSection@4 referenced in function ___crtInitCritSecNoSpinCount@8
+LIBCMTD.lib(open.obj) : error LNK2019: unresolved external symbol _CreateFileA@28 referenced in function __tsopen_lk
+LIBCMTD.lib(thread.obj) : error LNK2019: unresolved external symbol _ResumeThread@4 referenced in function __beginthread
+LIBCMTD.lib(thread.obj) : error LNK2019: unresolved external symbol _CreateThread@24 referenced in function __beginthread
+LIBCMTD.lib(thread.obj) : error LNK2019: unresolved external symbol _ExitThread@4 referenced in function __endthread
+LIBCMTD.lib(winxfltr.obj) : error LNK2019: unresolved external symbol _UnhandledExceptionFilter@4 referenced in function __XcptFilter
+LIBCMTD.lib(chsize.obj) : error LNK2019: unresolved external symbol _SetEndOfFile@4 referenced in function __chsize_lk
+Debug/zlibvc.exe : fatal error LNK1120: 34 unresolved externals
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\neXgen Dashboard Source v1.2\Engine\zlib\Debug\BuildLog.htm"
+zlibvc - 65 error(s), 0 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

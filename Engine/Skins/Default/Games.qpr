@@ -1,0 +1,22 @@
+[QDE Project]
+Version="1.00"
+Name="Games"
+[End]
+
+[Configurations]
+OutputDirectory="output"
+OutputFileExt=".luc"
+BackupDirectory="backup"
+[End]
+
+[Folders]
+[End]
+
+[Files]
+[End]
+
+[OpenDocumentsList]
+ActiveDocument=""
+Position="0"
+[End]
+

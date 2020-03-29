@@ -1,0 +1,10 @@
+extern "C" {
+	XBOXAPI LONG WINAPI HalWriteSMBusValue(UCHAR devddress, UCHAR offset, UCHAR writedw, DWORD data);
+}
+
+
+// Enable Eject Reset
+HalWriteSMBusValue(0x20, 0x19, 0, 0x00);
+
+// Disable Eject Reset
+HalWriteSMBusValue(0x20, 0x19, 0, 0x01);
